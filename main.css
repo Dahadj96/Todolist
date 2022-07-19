@@ -1,0 +1,74 @@
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Fira sans", sans-serif;
+    background-color: rgb(55, 183, 242);
+    color: white;
+}
+
+.todolistapp {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -200PX;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input, button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+input {
+    margin: 10px 5px;
+    border: solid 1px ;
+    border-radius: 2px;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color :rgb(240, 240, 240)
+}
+
+#new-task-submit {
+    cursor: pointer;
+}
+
+#new-task-form {
+	display: flex;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.actions button {
+   
+    padding: 3px 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.edit {
+    border:solid 1px #a8a8a8;
+    background-color: #a8a8a8;
+}
+
+.delete {
+    border: solid 1px brown;
+    background-color: brown;
+}
+
+button:hover {
+    cursor: pointer;
+}
